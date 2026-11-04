@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Balance - Chat IA</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="barra"><span>9:41</span><span>● ● ●</span></div>
+      <div class="isla"></div>
+      <header class="encabezado">
+        <a class="boton-icono" href="inicio.html">‹</a
+        ><span>Tu asistente Balance</span><span>✦</span>
+      </header>
+      <h1>Chat con IA</h1>
+      <div class="botones">
+        <a class="boton" href="chat.html">Registrar gasto</a>
+        <a class="boton secundario" href="mis-gastos.html">Consultar gastos</a>
+      </div>
+      <div class="chat usuario">
+        Anotá $48.000 de la cena de hoy en Amigos. Pagué yo; dividilo entre
+        Fede, Anto, Luli y yo.
+      </div>
+      <section class="tarjeta">
+        <strong>✦ Balance IA · Por confirmar</strong>
+        <p>Dale, te propongo este registro. Revisalo antes de confirmar.</p>
+        <div class="fila">
+          <span>Cena con amigos</span>
+          <strong>$48.000</strong>
+        </div>
+        <p class="texto-suave">
+          Amigos · Salidas <br />Pagaste vos · 4 partes iguales de $12.000
+        </p>
+        <div class="fila">
+          <span>Tu gasto: $12.000</span>
+          <span>Te deben: $36.000</span>
+        </div>
+        <p class="texto-suave">Todavía no se guardó.</p>
+        <a class="boton ancho" href="detalle-gasto.html">Confirmar registro</a>
+        <a class="boton secundario ancho" href="divisiones.html">Corregir</a>
+      </section>
+      <form action="chat.html">
+        <input
+          class="campo"
+          type="text"
+          placeholder="Escribí un gasto o consulta"
+        />
+        <button class="boton">Enviar</button>
+      </form>
+      <nav class="nav">
+        <a href="inicio.html"><b>⌂</b>Inicio</a>
+        <a class="activa" href="chat.html"><b>◌</b>Chat IA</a>
+        <a href="mis-gastos.html"><b>◉</b>Gastos</a>
+        <a href="divisiones.html"><b>♧</b>Grupos</a>
+        <a href="perfil.html"><b>♙</b>Perfil</a>
+      </nav>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>

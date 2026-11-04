@@ -1,0 +1,16 @@
+{
+  "name": "Balance",
+  "short_name": "Balance",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#003336",
+  "icons": [
+    {
+      "src": "./assets/splash-ellipse7141.png",
+      "sizes": "170x170",
+      "type": "image/png"
+    }
+  ]
+}
